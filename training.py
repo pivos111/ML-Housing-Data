@@ -1,10 +1,13 @@
 import pandas as pd
 import numpy as np
 import pickle
+import warnings
 from math import sqrt
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestRegressor
+
+warnings.filterwarnings("ignore")
 
 # Importing the data from xlsx to a Dataframe df sorted by euro per square meter (and we drop that feature next)
 

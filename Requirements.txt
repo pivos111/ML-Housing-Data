@@ -1,9 +1,0 @@
-Python 3.9
-.Net Core 6.0
-
-If run manually:
-Python Libraries:
-pandas
-numpy
-pickle
-sklearn

@@ -40,3 +40,5 @@ Run demo.py
 -Step 4:
 The results are in PredictedPrice.txt.
 The first line is the Predicted Price and the second line has the Price Range.
+
+# Check the Extras Folder for the report etc.

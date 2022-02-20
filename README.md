@@ -28,11 +28,7 @@ To run the scripts and get results:
 Run training.py
 
 - Step 2:
-Create a .txt file with a number in a new line for each of the following in order: ['SquareMeters', 'Rooms', 'Baths', 'Floor',
-       'Parking', 'Apartement', 'Maisonette', 'Studio', 'SingleFamilyHouse',
-       'Building', 'Complex', 'AutoElectricity', 'AutoOil', 'AutoGas',
-       'FloorHeating', 'CentralOil', 'CentralGas', 'Age']
-(Use only numbers, use 0 or 1 from Apartement to CentralGas, use number of years built for Age [ex. 15])
+Run userInput.py
 
 - Step 3:
 Run demo.py

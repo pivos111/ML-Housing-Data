@@ -12,7 +12,7 @@ user_value = pd.DataFrame(list(userlist))
 user_value.index= ['SquareMeters', 'Rooms', 'Baths', 'Floor',
        'Parking', 'Apartement', 'Maisonette', 'Studio', 'SingleFamilyHouse',
        'Building', 'Complex', 'AutoElectricity', 'AutoOil', 'AutoGas',
-       'FloorHeating', 'CentralOil', 'CentralGas', 'Age']
+       'CentralGas', 'CentralOil', 'FloorHeating', 'Age']
 
 # Load model and price range
 loaded_model = pickle.load(open('finalized_model.sav', 'rb'))

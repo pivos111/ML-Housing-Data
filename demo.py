@@ -33,3 +33,5 @@ with open('PredictedPrice.txt', 'w') as f:
     for line in lines:
         f.write(line)
         f.write('\n')
+print("The predicted price is:", pv)
+print("The price's range is:", range)
